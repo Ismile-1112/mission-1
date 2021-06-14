@@ -35,7 +35,8 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    background-color: white;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 5%);
 }
 
 .navbar__brand{
@@ -48,13 +49,24 @@ body{
 
 .hero__container{
     width: 100%;
+    margin-top: 18px;
 }
+
 .hero__image__container{
     width: 100%;
+    position: relative;
 }
 
 .hero__image{
     width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+}
+
+.hero__image__shape{
+    position: absolute;
 }
 
 .hero__text{
@@ -132,6 +144,30 @@ body{
 .restaurant__3{
     width: 120%;
     height: 200px;
+}
+
+/*email field*/
+.text-x1{
+    font-size: 25px;
+    color: #1d3557;
+    margin: 50px 0 15px;
+    font-weight: bold;
+}
+
+.email__subscribe__input__field{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 75px;
+}
+
+.email__input {
+    border: 1px solid #ee89a0;
+    background-color: #fcedf0;
+    color: #1d3557;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 4px;
 }
 
 
