@@ -1,17 +1,17 @@
-# CloudJourney Web — Static Website Hosting on AWS (S3 + CloudFront + Route 53 + ACM + WAF)
+# 🌐 **CloudJourney Web — Static Website Hosting on AWS (S3 + CloudFront + Route 53 + ACM + WAF)**
 
-### Live Website:
+### **Live Website:**
 
 👉 [https://cloudjourney.online](https://cloudjourney.online)
 
-### Tech Stack:
+### **Tech Stack:**
 
-Frontend: HTML, CSS
-Cloud Services: Amazon S3, Amazon CloudFront, AWS Certificate Manager, Route 53, AWS WAF
+**Frontend:** HTML, CSS
+**Cloud Services:** Amazon S3, Amazon CloudFront, AWS Certificate Manager, Route 53, AWS WAF
 
 ---
 
-## **Project Overview**
+## 📘 **Project Overview**
 
 This project demonstrates how to host a **static website** on AWS using a fully secure, globally distributed, production-grade architecture.
 
@@ -29,12 +29,7 @@ This project is perfect for showcasing real cloud engineering experience, includ
 
 ## 🖼️ **Architecture Diagram**
 
-*(Add your exported Eraser.io diagram here)*
-Example placeholder:
-
-```
-assets/architecture-diagram.png
-```
+<img width="940" height="215" alt="image" src="https://github.com/user-attachments/assets/5c7cb838-dcbf-4127-8887-a88503431ccb" />
 
 ---
 
